@@ -46,6 +46,13 @@ public class test {
 			System.out.println(star);
 			star += "*";
 		}
+		for(int i=0; i<4; i++) {
+			for(int j=0; j<i+1; j++) {				
+				System.out.print("*");
+			}
+			System.out.println("");
+			
+		}
 		
 		//6
 		star = "*";
@@ -57,5 +64,18 @@ public class test {
 			star += "*";
 		}
 		
+		int z =0;
+		for(int i=4; i>0; i--) {
+			
+			for(int j=0; j<i; j++) {
+				System.out.print(" ");
+			}
+			++z;
+			for(int k=0; k<z; k++) {				
+				System.out.print("*");
+			}
+			System.out.println("");
+
+		}
 	}
 }
