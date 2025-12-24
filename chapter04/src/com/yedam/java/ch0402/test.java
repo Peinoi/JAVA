@@ -57,7 +57,7 @@ public class test {
 		//6
 		star = "*";
 		for(int i=4; i>0; i--) {
-			for(int j=0; j<i; j++) {
+			for(int j=0; j<i-1; j++) {
 				System.out.print(" ");
 			}
 			System.out.println(star);
@@ -67,7 +67,7 @@ public class test {
 		int z =0;
 		for(int i=4; i>0; i--) {
 			
-			for(int j=0; j<i; j++) {
+			for(int j=0; j<i-1; j++) {
 				System.out.print(" ");
 			}
 			++z;
@@ -77,5 +77,17 @@ public class test {
 			System.out.println("");
 
 		}
+		
+		for(int len =1 ; len<= 4; len++) {
+			for(int ch=4; ch>0; ch--) {
+				if(ch>len) {
+					System.out.print(" ");					
+				}else {
+					System.out.print("*");
+				}
+			}
+			System.out.println("");
+		}
+		
 	}
 }
