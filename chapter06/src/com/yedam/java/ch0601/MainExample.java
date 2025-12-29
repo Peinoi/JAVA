@@ -5,8 +5,6 @@ public class MainExample {
 		//메인 메소드를 가진 클래스를 메인 example라고 한다.
 		// 가정) 두명이 카드를 각각 만들었다.
 		// 실제 발급을 한 상황 : 클래스 => 인스턴스를 생성
-		// 
-		
 		
 		Card hong = new Card("12345678","30/12",598,"Hong");
 		Card kang = new Card("98765432","30/12",753,"Kang");
