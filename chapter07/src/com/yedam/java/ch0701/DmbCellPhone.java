@@ -9,7 +9,8 @@ public class DmbCellPhone extends CellPhone {
 	// 생성자
 	public DmbCellPhone(String model, String color, int channel) {	
 		super(model,color); // 부모 생성자 호출 => 무조건 첫 번째 줄
-
+		
+// this 는 생성자 오버로딩 때 사용
 //		this.model = model;
 //		this.color = color;
 		this.channel = channel;
@@ -17,6 +18,7 @@ public class DmbCellPhone extends CellPhone {
 		System.out.println(System.identityHashCode(getClass()));
 	}
 	
+    
 	
 	// 메소드
 	void turnOnDmb () {
